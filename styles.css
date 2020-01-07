@@ -1,0 +1,27 @@
+.top-header {
+    margin: auto;
+    position: absolute;
+    left: 40.5%;
+    text-align: center;
+}
+
+.top-header h1{
+    font-family: eds-market-bold-script, sans-serif;
+    margin: 0;
+}
+
+.top-header .top-menu {
+    margin: 0;
+}
+
+.top-header .top-menu a{
+    font-family: eds-market-bold-script, sans-serif;
+    color: black;
+    text-decoration:none;
+    margin: 10px;
+}
+
+.top-header .top-menu a:hover{
+    color:#581211
+}
+
