@@ -1,7 +1,17 @@
+hr{
+    width: 50%;
+    clear: both;
+}
+
+#logo-img{
+    position: relative;
+    left:-2%;
+}
+
 .top-header {
     margin: auto;
     position: absolute;
-    left: 40.5%;
+    left: 38.5%;
     text-align: center;
 }
 
@@ -37,4 +47,74 @@
     top:20%;
     position: absolute;
 }
+
+
+
+.video-btn{
+    position: relative;
+    float: left;
+}
+
+.portfolio-images{
+    position: absolute;
+    top:50%;
+    left:7%;
+}
+
+.writing-btn{
+    position: relative;
+    float: right;
+}
+
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 98.5%;
+    width: 100%;
+    opacity: 0;
+    background-color: #581211;
+}
+
+.portfolio-images .video-btn:hover .overlay{
+    transition: .5s ease;
+    opacity: 50%;
+}
+
+.portfolio-images .writing-btn:hover .overlay{
+    transition: .5s ease;
+    opacity: 50%;
+}
+
+#about-paragraph{
+    position: absolute;
+    top:19%;
+    left:20%;
+    width: 60%;
+}
+
+#about-p{
+    font-family: eds-market-regular-slant, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hr-div{
+    position: absolute;
+    width: 140%;
+    top:42%;
+    left:-21%;
+}
+
+
+
+
+
+  
+
+
 
